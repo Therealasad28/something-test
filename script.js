@@ -74,8 +74,20 @@
 
 // && = (va) degani; || = (yoki) degani;
 
-const isAge = false;
-const isClose = false;
-const isChecked = true;
+// const isAge = false;
+// const isClose = false;
+// const isChecked = true;
 
-console.log(isAge || isClose || isChecked);
+// console.log(isAge || isClose || isChecked);
+
+const age = +prompt("How old are you?", "");
+
+// if (age >= 25) {
+//   console.log("Horror fils");
+// } else if (age >= 18) {
+//   console.log("Romantic fils");
+// } else {
+//   console.log("cartoon");
+// }
+
+age >= 18 ? console.log("horror films") : console.log("Cartoon");
